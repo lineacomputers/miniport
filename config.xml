@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
-    xmlns:gap = "http://phonegap.com/ns/1.0"
-    id        = "com.phonegap.example"
-    version   = "1.1.1">
+    xmlns:gap = "http://phonegap.com/ns/01.0"
+    id        = "com.phonegap.miniport"
+    version   = "1.0.0">
 
 <name>Miniport</name>
 
@@ -87,7 +87,7 @@ Linea Computers srl
 
         Otherwise, you can specify specific domains:
     -->
-    <access origin="http://127.0.0.1*"/> <!-- allow local pages -->
+  <!--  <access origin="http://127.0.0.1*"/> <!-- allow local pages -->
     <!--
         <access origin="http://phonegap.com" />                    - allow any secure requests to http://honegap.com/
         <access origin="http://phonegap.com" subdomains="true" />  - same as above, but including subdomains, such as http://build.phonegap.com/
